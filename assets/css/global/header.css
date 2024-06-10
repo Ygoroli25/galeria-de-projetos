@@ -1,0 +1,25 @@
+.header-bg {
+  background-color: var(--cor-0);
+}
+
+.nav {
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav-item a {
+  color: var(--cor-11);
+  padding: 0.5rem 1rem;
+}
+
+.nav-item a:hover {
+ color: var(--cor-p1);
+ transition:color 0.3s ;
+}

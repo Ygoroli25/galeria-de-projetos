@@ -2,3 +2,5 @@
 @import 'footer.css';
 @import 'header.css';
 @import 'variables.css';
+@import 'normalize.css';
+@import 'components.css';
