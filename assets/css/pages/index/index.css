@@ -1,2 +1,5 @@
 /* Global */
-@import '../../global/global.css';
+@import "../../global/global.css";
+
+/* pages / index */
+@import "banner.css";

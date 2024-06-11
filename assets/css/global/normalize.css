@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   background-color: var(--cor-1);
+  color: var(--cor-12);
 }
 
 ul {
@@ -14,12 +19,4 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-h1, h2, h3, h4 {
-  font-family: "Poppins", sans-serif;
-}
-
-p, a, button, input, select, textarea {
-  font-family: "Roboto", sans-serif; 
 }
