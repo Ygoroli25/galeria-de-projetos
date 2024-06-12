@@ -4,17 +4,31 @@
 }
 
 /* estilo do botão */
-
 .btn {
   border: none;
   background: linear-gradient(var(--cor-p1), var(--cor-p2));
   color: var(--cor-0);
-padding: 0.5rem 1rem;
-border-radius: 4px;
-font: 500 1.125rem/1.35 "Roboto", sans-serif;
-cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
 }
 
 .btn:hover {
   background: linear-gradient(var(--cor-p2), var(--cor-p3));
+}
+
+/*  botão git */
+.btn-git {
+  background: var(--cor-0);
+  color: var(--cor-p1);
+  border: 2px solid var(--cor-p1);
+}
+
+.btn-git:hover {
+  background: initial;
+  color: var(--cor-p3);
+  border-color:var(--cor-p3);
 }
