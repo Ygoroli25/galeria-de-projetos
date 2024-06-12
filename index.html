@@ -4,10 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Essa é uma galeria para organizar os projetos pessoais.">
-  <title>Galeria de Projetos</title>
+  <meta name="description" content="This is a gallery to organize personal projects.">
+  <title>Project Gallery</title>
   <link rel="stylesheet" href="./assets/css/pages/index/index.css">
   <link rel="icon" href="./assets/img/gobal/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body id="index">
@@ -16,17 +20,17 @@
       <a href="./index.html"><img class="nav-brand" src="assets/img/gobal/logo.svg" alt="Logo do site" width="107" height="63"></a>
       <ul class="nav-list font-2-l">
         <li class="nav-item">
-          <a href="#">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="banner" class="container">
+    <section id="banner" class="container" aria-label="banner">
       <div class="banner-text">
         <h1 class="font-1-xl">Hi, I'm Ygor,<br>
           Front-End developer & UX/UI designer!</h1>
@@ -34,11 +38,11 @@
         <button class="btn">Download Resume</button>
       </div>
       <div class="banner-img">
-        <img src="https://avatars.githubusercontent.com/u/111092853?v=4" alt="Foto de perfil">
+        <img src="assets/img/pages/index/foto-perfil-borda.png" alt="Foto de perfil">
       </div>
     </section>
 
-    <section id="projects" class="projects-bg">
+    <section id="projects" class="projects-bg" aria-label="projects">
       <div class="projects-content container">
         <h2 class="font-1-l">Recent Projects</h2>
         <div class="projects-gallery">
@@ -46,29 +50,52 @@
             <li class="projects-card">
               <img src="assets/img/pages/index/Captura de tela 2024-06-08 211655.png" alt="">
               <div class="projects-card-texts">
-              <h3 class="font-1-m-b">My Portifolio</h3>
-              <ul class="projects-card-skills">
-                <li class="font-1-xs  projects-skill">html</li>
-                <li class="font-1-xs  projects-skill">Css</li>
-                <li class="font-1-xs  projects-skill">figma</li>
-              </ul>
-              <p class="font-2-m">This is my personal portfolio where I keep my general information updated.</p>
-              <div class="font-2-m projects-btns">
-                <a class="btn btn-git" href="">GitHub</a>
-                <a class="btn" href="">Deploy</a>
+                <h3 class="font-1-m-b">My Portifolio</h3>
+                <ul class="projects-card-skills">
+                  <li class="font-1-xs  projects-skill">html</li>
+                  <li class="font-1-xs  projects-skill">Css</li>
+                  <li class="font-1-xs  projects-skill">figma</li>
+                </ul>
+                <p class="font-2-m">This is my personal portfolio where I keep my general information updated.</p>
+                <div class="font-2-m projects-btns">
+                  <a class="btn btn-git" href="">GitHub</a>
+                  <a class="btn" href="">Deploy</a>
+                </div>
               </div>
-            </div>
             </li>
-           
           </ul>
         </div>
-
       </div>
 
     </section>
   </main>
 
-  <footer></footer>
-</body>
+  <footer id="contact" class="footer-bg">
+    <div class="footer-content container">
+      <ul class="footer-contact-list">
+        <li>
+          <a href="https://www.linkedin.com/in/ygoroli25/" target="_blank">
+            <img src="assets/img/pages/index/icon-linkedin-redondo.svg" alt="icon linkedin" width="40" height="40">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Ygoroli25" target="_blank">
+            <img src="assets/img/pages/index/icon-git.svg" alt="icon git" width="40" height="40">
+          </a>
+        </li>
+        <li>
+          <a href="https://ygoroli25.github.io/" target="_blank">
+            <img src="assets/img/pages/index/icon-web.svg" alt="icon web" width="40" height="40">
+          </a>
+        </li>
+      </ul>
+      <p class="font-1-m">developed by <a href="https://github.com/Ygoroli25 " target="_bank">Ygor O. Cardoso</a>
+      </p>
+    </div>
+
+    <div class="up">
+      <a href="#header"><img src="assets/img/pages/index/arrow-up.svg" alt="icon up" width="24" height="24"></a>
+    </div>
+  </footer>
 
 </html>

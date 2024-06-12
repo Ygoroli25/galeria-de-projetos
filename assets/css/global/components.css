@@ -28,7 +28,7 @@
 }
 
 .btn-git:hover {
-  background: initial;
+  background:var(--cor-0);
   color: var(--cor-p3);
   border-color:var(--cor-p3);
 }
